@@ -2,5 +2,7 @@
 A Food ordering app made using React.js to practice various react concepts
 
 
-https://user-images.githubusercontent.com/90529224/181375769-bb41b78a-0db5-45e1-b4fd-70ef1258824a.mp4
+
+
+https://user-images.githubusercontent.com/90529224/181375844-3f1a941a-d8d8-4c44-aeb9-3ef9955b9cb8.mp4
 
