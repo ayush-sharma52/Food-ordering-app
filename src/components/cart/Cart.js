@@ -49,8 +49,7 @@ function Cart(props) {
   );
   const confirmHandler = async (userData) => {
     setSubmitting(true);
-    await fetch(
-      "https://taskmanager-87909-default-rtdb.firebaseio.com/Orders.json",
+    await fetch("https://react-demo-51a5a-default-rtdb.firebaseio.com/users.json", 
       {
         method: "POST",
         body: JSON.stringify({

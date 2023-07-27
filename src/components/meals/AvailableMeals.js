@@ -10,9 +10,7 @@ const AvailableMeals = () => {
 
   useEffect(() => {
     const fetchMeals = async () => {
-      const response = await fetch(
-        "https://taskmanager-87909-default-rtdb.firebaseio.com/Meals.json"
-      );
+      const response = await fetch("https://react-demo-51a5a-default-rtdb.firebaseio.com/meals.json");
       if (!response.ok) throw new Error("something went wrong");
 
       const data = await response.json();
